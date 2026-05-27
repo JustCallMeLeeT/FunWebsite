@@ -59,7 +59,7 @@ export default function Index() {
         <TouchableOpacity
           style={[
             styles.button, 
-            styles.yesButton, 
+            styles.yesButton,  
             { paddingVertical: yesPaddingV, paddingHorizontal: yesPaddingH }
           ]}
           onPress={handleYesPress}
